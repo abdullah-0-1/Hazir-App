@@ -1,0 +1,64 @@
+name: messenger
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.6.11
+
+  # Location & Maps
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  geolocator: ^10.1.0
+  geocoding: ^4.0.0
+
+  # Network
+  http: ^1.5.0
+
+  # Auth & Input
+  email_validator: ^3.0.0
+  country_code_picker: ^3.4.1
+
+  # Device Features
+  url_launcher: ^6.3.2
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your images here
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+
+  # To add custom fonts
+  # fonts:
+  #   - family: MyFont
+  #     fonts:
+  #       - asset: assets/fonts/MyFont-Regular.ttf
+  #       - asset: assets/fonts/MyFont-Bold.ttf
+  #         weight: 700
